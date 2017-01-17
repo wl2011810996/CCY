@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "YFGIFImageView.h"
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *button;
+
+@property (weak, nonatomic) IBOutlet YFGIFImageView *imgv;
 
 @end
 
+// 版权属于原作者
+// http://code4app.com (cn) http://code4app.net (en)
+// 发布代码于最专业的源码分享网站: Code4App.com
